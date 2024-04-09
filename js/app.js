@@ -52,3 +52,22 @@ let first = [1, 2, 2, 3, 4, 4, 5];
 const jas = cut(first);
 
 console.log(jas);
+// 7-masala
+
+let arre = [1, 2, 3];
+let newArr = new Set([1, 2, 3, 4, 5, 6]);
+console.log(newArr.has(arre));
+
+// 8-masala
+
+let set1 = new Set("apple");
+let set2 = new Set("orange");
+let set3 = set1.add(set2);
+console.log(set3);
+
+// 9-masala
+
+let arr = [1, 2, 3, 4, 5];
+let newMap = new Map(arr);
+newMap.set(arr);
+console.log(newMap);
