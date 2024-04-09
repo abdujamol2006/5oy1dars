@@ -44,12 +44,10 @@ let finds = tofind(arr1, arr2);
 console.log(tofind);
 //6-masala//
 
-function cut(arr) {
-  return [...new Set(arr)];
-}
-
-let first = [1, 2, 2, 3, 4, 4, 5];
-const jas = cut(first);
+let arry = [54];
+let setObjc = new Set([1, 2, 3, 3, 5, 6, 6, 7, ...arry]);
+let newObj = setObjc.delete(...arry);
+console.log(setObjc);
 
 console.log(jas);
 // 7-masala
