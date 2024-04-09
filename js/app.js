@@ -49,7 +49,6 @@ let setObjc = new Set([1, 2, 3, 3, 5, 6, 6, 7, ...arry]);
 let newObj = setObjc.delete(...arry);
 console.log(setObjc);
 
-console.log(jas);
 // 7-masala
 
 let arre = [1, 2, 3];
@@ -65,7 +64,7 @@ console.log(set3);
 
 // 9-masala
 
-/*let arr = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 5];
 let newMap = new Map(arr);
 newMap.set(arr);
-console.log(newMap);*/
+console.log(newMap);
