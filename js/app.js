@@ -65,7 +65,7 @@ console.log(set3);
 
 // 9-masala
 
-let arr = [1, 2, 3, 4, 5];
+/*let arr = [1, 2, 3, 4, 5];
 let newMap = new Map(arr);
 newMap.set(arr);
-console.log(newMap);
+console.log(newMap);*/
